@@ -2,7 +2,7 @@
     <string name="app_name">Map19Resorces</string>
     <string name="greeting">Hello welcome</string>
     <string name="press_here">Press here</string>
-    <string name="thank_you">Thank you</string>
+    <string name="thank_you">Thank you! %1$s!</string>
 
 
 </resources>

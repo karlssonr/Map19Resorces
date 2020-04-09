@@ -7,6 +7,8 @@ import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
+    var name = "Robin"
+
     lateinit var greetingTextView : TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
     fun buttonPressed(view : View) {
 
-    greetingTextView.text = getString(R.string.thank_you)
+    greetingTextView.text = getString(R.string.thank_you, name)
 
     }
 }
